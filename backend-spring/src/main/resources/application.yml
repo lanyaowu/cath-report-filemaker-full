@@ -1,0 +1,30 @@
+server:
+  port: ${PORT:8080}
+  ssl:   # HTTPS（SSL_ENABLED=true と鍵ストアを指定）
+    enabled: ${SSL_ENABLED:false}
+    key-store: ${SSL_KEY_STORE:}
+    key-store-password: ${SSL_KEY_STORE_PASSWORD:}
+    key-store-type: ${SSL_KEY_STORE_TYPE:PKCS12}
+spring:
+  application:
+    name: cath-report-backend
+  data:
+    mongodb:
+      uri: ${MONGODB_URI:mongodb://localhost:27017/cathreport}
+      auto-index-creation: true
+  jackson:
+    default-property-inclusion: non_null
+    deserialization:
+      fail-on-unknown-properties: false
+  servlet:
+    multipart:
+      max-request-size: 20MB
+app:
+  cors-origins: ${CORS_ORIGIN:http://localhost:5173}
+  seed-on-startup: ${SEED_ON_STARTUP:true}
+  allow-seed-api: ${ALLOW_SEED_API:false}   # POST /api/admin/seed（全データ置換）を許可するか
+  auth:
+    enabled: ${AUTH_ENABLED:true}
+    secret: ${AUTH_SECRET:}
+    token-ttl-minutes: ${AUTH_TOKEN_TTL_MIN:480}
+    users-file: ${AUTH_USERS_FILE:}

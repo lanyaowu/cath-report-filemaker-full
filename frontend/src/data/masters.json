@@ -1,0 +1,126 @@
+{
+ "doctors": [
+  "山田 太郎",
+  "佐藤 健一",
+  "鈴木 一郎",
+  "高橋 誠",
+  "田中 修",
+  "伊藤 直樹"
+ ],
+ "hospitals": [
+  "市民病院",
+  "中央クリニック",
+  "山の手内科",
+  "港北循環器クリニック"
+ ],
+ "devices": [
+  {
+   "category": "DES",
+   "name": "Xience Skypoint"
+  },
+  {
+   "category": "DES",
+   "name": "Synergy XD"
+  },
+  {
+   "category": "DES",
+   "name": "Resolute Onyx"
+  },
+  {
+   "category": "DES",
+   "name": "Ultimaster Nagomi"
+  },
+  {
+   "category": "DES",
+   "name": "Orsiro Mission"
+  },
+  {
+   "category": "Balloon",
+   "name": "Ryurei"
+  },
+  {
+   "category": "Balloon",
+   "name": "Emerge"
+  },
+  {
+   "category": "NC Balloon",
+   "name": "NC Trek"
+  },
+  {
+   "category": "NC Balloon",
+   "name": "Hiryu"
+  },
+  {
+   "category": "Scoring",
+   "name": "Scoreflex"
+  },
+  {
+   "category": "Cutting",
+   "name": "Wolverine"
+  },
+  {
+   "category": "DCB",
+   "name": "SeQuent Please"
+  },
+  {
+   "category": "DCB",
+   "name": "Agent"
+  },
+  {
+   "category": "Rota burr",
+   "name": "Rotablator"
+  },
+  {
+   "category": "IVL",
+   "name": "Shockwave C2+"
+  },
+  {
+   "category": "Aspiration",
+   "name": "Thrombuster III"
+  },
+  {
+   "category": "Filter",
+   "name": "Filtrap"
+  },
+  {
+   "category": "Guiding",
+   "name": "Launcher"
+  },
+  {
+   "category": "Guiding",
+   "name": "Heartrail"
+  },
+  {
+   "category": "Micro",
+   "name": "Corsair Pro"
+  },
+  {
+   "category": "Micro",
+   "name": "Caravel"
+  },
+  {
+   "category": "Micro",
+   "name": "Finecross"
+  },
+  {
+   "category": "GW",
+   "name": "Sion blue"
+  },
+  {
+   "category": "GW",
+   "name": "Runthrough NS"
+  },
+  {
+   "category": "GW",
+   "name": "Gaia Next 1"
+  },
+  {
+   "category": "GW",
+   "name": "Fielder XT-A"
+  },
+  {
+   "category": "GW",
+   "name": "Ultimate Bros 3"
+  }
+ ]
+}

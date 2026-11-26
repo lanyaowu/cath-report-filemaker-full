@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "module": "commonjs",
+    "moduleResolution": "bundler",
+    "outDir": ".test-build",
+    "rootDir": ".",
+    "types": ["node"],
+    "noUnusedLocals": false,
+    "allowImportingTsExtensions": false
+  },
+  "include": ["test/**/*.ts", "src/utils/**/*.ts", "src/model/**/*.ts", "src/auth/**/*.ts", "src/types/**/*.ts", "src/state/screens.ts", "src/constants/**/*.ts", "src/i18n/translator.ts"]
+}

@@ -1,0 +1,29 @@
+sequenceDiagram
+  autonumber
+  actor U as 利用者
+  participant B as ブラウザ
+  participant S as サーバー
+  participant F as 利用者定義（users.json）
+  participant A as 監査ログ
+  U->>B: ID・パスワード
+  B->>S: POST /api/auth/login（Thymeleaf は /login）
+  S->>F: 利用者と役割・PBKDF2 ハッシュ
+  alt 5 回続けて失敗
+    S->>A: LOGIN_LOCKED
+    S-->>B: 429（15 分ロック）
+  else パスワード誤り
+    S->>A: LOGIN_FAILURE
+    S-->>B: 401
+  else 成功
+    S->>A: LOGIN（ログアウト時は LOGOUT）
+    S-->>B: トークン（8 時間）／セッション＋CSRF
+  end
+  Note over U,A: ― 監査の参照 ―
+  U->>B: 「監査ログ」（管理者）
+  B->>S: GET /api/audit?from・to・username・action・targetType・targetId・withChanges
+  S->>A: 期間・利用者・操作・対象で検索（新しい順）
+  A-->>B: 一覧と変更項目（▶ で表示）・CSV 出力
+  U->>B: 「項目ごとの変更履歴」（閲覧権限）
+  B->>S: GET /api/reports/{id}/history
+  S->>A: 対象＝レポートの変更項目
+  A-->>B: 変更前 → 変更後（確定解除は赤・その後の変更は橙）

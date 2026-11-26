@@ -1,0 +1,31 @@
+sequenceDiagram
+  autonumber
+  actor U as 医師・秘書
+  participant B as ブラウザ（画面）
+  participant S as サーバー（API / Thymeleaf）
+  participant R as 業務ルール
+  participant DB as DB（患者・レポート）
+  participant A as 監査（AuditDiff）
+  U->>B: 項目を入力
+  B->>B: 表示時の値と比べて変更検知・保存ボタンを赤に・自動計算
+  U->>B: 保存（ボタン / Ctrl＋S）
+  alt React 版
+    B->>S: PUT /api/reports/{id}（レポート全体＋version）
+  else Thymeleaf 版
+    B->>S: POST /api/form/save（screen・version・変更項目 path→値）
+  end
+  S->>S: 認証（トークン / セッション＋CSRF）・役割の確認
+  S->>R: 確定ロック・主画面の規則・登録履歴は追加のみ
+  R-->>S: 違反なら 400 / 403
+  S->>DB: version を照合して更新（+1）
+  alt version が違う
+    DB-->>S: 0 件
+    S-->>B: 409 他の端末で更新されています
+  else 一致
+    DB-->>S: 更新後のデータ
+    S->>A: 保存前後の JSON → パスごとの差分
+    A->>A: version・更新日時・登録履歴・画像本体を除外、値 200 文字・1,000 項目まで
+    A->>DB: audit_log 1 行＋audit_change（失敗しても業務は止めない）
+    S-->>B: 200（新しい version）
+    B->>B: 表示時の値を更新・保存ボタンを戻す
+  end

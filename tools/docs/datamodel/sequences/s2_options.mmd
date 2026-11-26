@@ -1,0 +1,28 @@
+sequenceDiagram
+  autonumber
+  actor M as 管理者
+  participant B as 選択値画面
+  participant S as サーバー（OptionMasterService / options.ts）
+  participant O as DB（選択値マスタ）
+  participant H as 変更履歴
+  participant A as 監査ログ
+  participant P as 各入力画面
+  M->>B: カテゴリを選ぶ
+  B->>S: GET /api/options（Thymeleaf は /options）
+  S->>O: カテゴリと選択値（並び順）
+  O-->>B: items・version・editable
+  M->>B: 表示名の変更・▲▼・追加・使用停止
+  B->>B: 入力チェック（空欄・コード重複・使用中 1 つ以上）
+  B->>S: PUT /api/options/{code}（items＋version）
+  S->>S: 管理者か・editable か・コード変更や削除がないか
+  S->>O: version を照合して更新
+  alt version が違う
+    S-->>B: 409 他の端末で更新されています
+  else 一致
+    Note right of O: PostgreSQL：トリガーが選択値ごとに 1 行<br/>MongoDB：変更前の items を 1 件
+    O->>H: 変更履歴を追加
+    S->>A: UPDATE_OPTIONS・要約（使用停止:IABP 追加:ECMO）<br/>変更項目（コード.表示名／使用／並び順）
+    S-->>B: 200（新しい version）
+    S->>S: キャッシュを更新（Thymeleaf）／画面の状態を更新（React）
+    Note left of P: 次の表示から使用中の値を並び順で表示<br/>保存済みの使用停止値は<br/>「（使用停止）」付きで残す
+  end

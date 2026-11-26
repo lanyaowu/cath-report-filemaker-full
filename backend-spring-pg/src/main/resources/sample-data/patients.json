@@ -1,0 +1,490 @@
+[
+ {
+  "id": "pt-001",
+  "patientId": "0001234567",
+  "name": "心臓 一郎",
+  "kana": "シンゾウ イチロウ",
+  "sex": "M",
+  "birthDate": "1952-04-12",
+  "bloodType": "A",
+  "rh": "+",
+  "zip": "100-0000",
+  "address": "東京都千代田区架空町1-2-3",
+  "phone": "03-0000-1000",
+  "mobile": "090-0000-2000",
+  "emergency": {
+   "name": "家族 代表",
+   "relation": "妻",
+   "phone": "080-0000-3000"
+  },
+  "insurance": {
+   "type": "社保",
+   "number": "12345670"
+  },
+  "allergy": {
+   "contrast": false,
+   "contrastDetail": "",
+   "drug": false,
+   "drugDetail": "",
+   "latex": false,
+   "iodine": false,
+   "food": ""
+  },
+  "infection": {
+   "hbs": "-",
+   "hcv": "-",
+   "hiv": "-",
+   "syphilis": "-",
+   "mrsa": "-"
+  },
+  "primaryDoctor": "山田 太郎",
+  "ward": "5東",
+  "referral": {
+   "hospital": "市民病院",
+   "doctor": "紹介 医師"
+  },
+  "dnar": false,
+  "pastHistory": "高血圧症、脂質異常症",
+  "familyHistory": "父：心筋梗塞",
+  "medicationNote": "アスピリン100mg 1T1x",
+  "notes": "",
+  "createdAt": "2026-11-01T09:00:00.000Z",
+  "updatedAt": "2026-11-01T09:00:00.000Z",
+  "admissions": [
+   {
+    "admitDate": "2026-01-10",
+    "dischargeDate": "2026-01-17",
+    "doctor": "山田 太郎",
+    "diagnosis": "労作性狭心症",
+    "summary": "PCI施行後経過良好にて退院。"
+   }
+  ]
+ },
+ {
+  "id": "pt-002",
+  "patientId": "0001234568",
+  "name": "冠 花子",
+  "kana": "カンムリ ハナコ",
+  "sex": "F",
+  "birthDate": "1948-09-30",
+  "bloodType": "O",
+  "rh": "+",
+  "zip": "100-0001",
+  "address": "東京都千代田区架空町2-3-4",
+  "phone": "03-0000-1001",
+  "mobile": "090-0000-2001",
+  "emergency": {
+   "name": "家族 代表",
+   "relation": "夫",
+   "phone": "080-0000-3001"
+  },
+  "insurance": {
+   "type": "国保",
+   "number": "12345671"
+  },
+  "allergy": {
+   "contrast": false,
+   "contrastDetail": "",
+   "drug": false,
+   "drugDetail": "",
+   "latex": false,
+   "iodine": false,
+   "food": ""
+  },
+  "infection": {
+   "hbs": "-",
+   "hcv": "-",
+   "hiv": "-",
+   "syphilis": "-",
+   "mrsa": "-"
+  },
+  "primaryDoctor": "佐藤 健一",
+  "ward": "6西",
+  "referral": {
+   "hospital": "中央クリニック",
+   "doctor": "紹介 医師"
+  },
+  "dnar": false,
+  "pastHistory": "2型糖尿病",
+  "familyHistory": "",
+  "medicationNote": "",
+  "notes": "",
+  "createdAt": "2026-11-01T09:00:00.000Z",
+  "updatedAt": "2026-11-01T09:00:00.000Z",
+  "admissions": [
+   {
+    "admitDate": "2026-02-10",
+    "dischargeDate": "2026-02-17",
+    "doctor": "佐藤 健一",
+    "diagnosis": "急性心筋梗塞",
+    "summary": "PCI施行後経過良好にて退院。"
+   }
+  ]
+ },
+ {
+  "id": "pt-003",
+  "patientId": "0001234569",
+  "name": "大動 脈男",
+  "kana": "オオドウ ミャクオ",
+  "sex": "M",
+  "birthDate": "1960-01-05",
+  "bloodType": "B",
+  "rh": "+",
+  "zip": "100-0002",
+  "address": "東京都千代田区架空町3-4-5",
+  "phone": "03-0000-1002",
+  "mobile": "090-0000-2002",
+  "emergency": {
+   "name": "家族 代表",
+   "relation": "長男",
+   "phone": "080-0000-3002"
+  },
+  "insurance": {
+   "type": "後期高齢",
+   "number": "12345672"
+  },
+  "allergy": {
+   "contrast": true,
+   "contrastDetail": "蕁麻疹(2019)",
+   "drug": false,
+   "drugDetail": "",
+   "latex": false,
+   "iodine": true,
+   "food": ""
+  },
+  "infection": {
+   "hbs": "-",
+   "hcv": "-",
+   "hiv": "-",
+   "syphilis": "-",
+   "mrsa": "-"
+  },
+  "primaryDoctor": "鈴木 一郎",
+  "ward": "CCU",
+  "referral": {
+   "hospital": "山の手内科",
+   "doctor": "紹介 医師"
+  },
+  "dnar": false,
+  "pastHistory": "慢性腎臓病(G3b)",
+  "familyHistory": "父：心筋梗塞",
+  "medicationNote": "",
+  "notes": "",
+  "createdAt": "2026-11-01T09:00:00.000Z",
+  "updatedAt": "2026-11-01T09:00:00.000Z",
+  "admissions": [
+   {
+    "admitDate": "2026-03-10",
+    "dischargeDate": "2026-03-17",
+    "doctor": "鈴木 一郎",
+    "diagnosis": "心不全",
+    "summary": "PCI施行後経過良好にて退院。"
+   }
+  ]
+ },
+ {
+  "id": "pt-004",
+  "patientId": "0001234570",
+  "name": "循環 器子",
+  "kana": "ジュンカン キコ",
+  "sex": "F",
+  "birthDate": "1971-06-18",
+  "bloodType": "AB",
+  "rh": "+",
+  "zip": "100-0003",
+  "address": "東京都千代田区架空町4-5-6",
+  "phone": "03-0000-1003",
+  "mobile": "090-0000-2003",
+  "emergency": {
+   "name": "家族 代表",
+   "relation": "長女",
+   "phone": "080-0000-3003"
+  },
+  "insurance": {
+   "type": "社保",
+   "number": "12345673"
+  },
+  "allergy": {
+   "contrast": false,
+   "contrastDetail": "",
+   "drug": false,
+   "drugDetail": "",
+   "latex": false,
+   "iodine": false,
+   "food": ""
+  },
+  "infection": {
+   "hbs": "-",
+   "hcv": "-",
+   "hiv": "-",
+   "syphilis": "-",
+   "mrsa": "-"
+  },
+  "primaryDoctor": "高橋 誠",
+  "ward": "5東",
+  "referral": {
+   "hospital": "港北循環器クリニック",
+   "doctor": "紹介 医師"
+  },
+  "dnar": false,
+  "pastHistory": "特記事項なし",
+  "familyHistory": "",
+  "medicationNote": "アスピリン100mg 1T1x",
+  "notes": "",
+  "createdAt": "2026-11-01T09:00:00.000Z",
+  "updatedAt": "2026-11-01T09:00:00.000Z",
+  "admissions": [
+   {
+    "admitDate": "2026-04-10",
+    "dischargeDate": "2026-04-17",
+    "doctor": "高橋 誠",
+    "diagnosis": "不安定狭心症",
+    "summary": "PCI施行後経過良好にて退院。"
+   }
+  ]
+ },
+ {
+  "id": "pt-005",
+  "patientId": "0001234571",
+  "name": "狭心 太郎",
+  "kana": "キョウシン タロウ",
+  "sex": "M",
+  "birthDate": "1945-12-24",
+  "bloodType": "A",
+  "rh": "+",
+  "zip": "100-0004",
+  "address": "東京都千代田区架空町5-6-7",
+  "phone": "03-0000-1004",
+  "mobile": "090-0000-2004",
+  "emergency": {
+   "name": "家族 代表",
+   "relation": "妻",
+   "phone": "080-0000-3004"
+  },
+  "insurance": {
+   "type": "国保",
+   "number": "12345674"
+  },
+  "allergy": {
+   "contrast": false,
+   "contrastDetail": "",
+   "drug": true,
+   "drugDetail": "ペニシリン",
+   "latex": false,
+   "iodine": false,
+   "food": ""
+  },
+  "infection": {
+   "hbs": "-",
+   "hcv": "-",
+   "hiv": "-",
+   "syphilis": "-",
+   "mrsa": "-"
+  },
+  "primaryDoctor": "田中 修",
+  "ward": "6西",
+  "referral": {
+   "hospital": "市民病院",
+   "doctor": "紹介 医師"
+  },
+  "dnar": false,
+  "pastHistory": "高血圧症、脂質異常症",
+  "familyHistory": "父：心筋梗塞",
+  "medicationNote": "",
+  "notes": "",
+  "createdAt": "2026-11-01T09:00:00.000Z",
+  "updatedAt": "2026-11-01T09:00:00.000Z",
+  "admissions": [
+   {
+    "admitDate": "2026-05-10",
+    "dischargeDate": "2026-05-17",
+    "doctor": "田中 修",
+    "diagnosis": "労作性狭心症",
+    "summary": "PCI施行後経過良好にて退院。"
+   }
+  ]
+ },
+ {
+  "id": "pt-006",
+  "patientId": "0001234572",
+  "name": "梗塞 次郎",
+  "kana": "コウソク ジロウ",
+  "sex": "M",
+  "birthDate": "1966-03-03",
+  "bloodType": "O",
+  "rh": "+",
+  "zip": "100-0005",
+  "address": "東京都千代田区架空町6-7-8",
+  "phone": "03-0000-1005",
+  "mobile": "090-0000-2005",
+  "emergency": {
+   "name": "家族 代表",
+   "relation": "夫",
+   "phone": "080-0000-3005"
+  },
+  "insurance": {
+   "type": "後期高齢",
+   "number": "12345675"
+  },
+  "allergy": {
+   "contrast": false,
+   "contrastDetail": "",
+   "drug": false,
+   "drugDetail": "",
+   "latex": false,
+   "iodine": false,
+   "food": ""
+  },
+  "infection": {
+   "hbs": "-",
+   "hcv": "-",
+   "hiv": "-",
+   "syphilis": "-",
+   "mrsa": "-"
+  },
+  "primaryDoctor": "伊藤 直樹",
+  "ward": "CCU",
+  "referral": {
+   "hospital": "中央クリニック",
+   "doctor": "紹介 医師"
+  },
+  "dnar": false,
+  "pastHistory": "2型糖尿病",
+  "familyHistory": "",
+  "medicationNote": "",
+  "notes": "",
+  "createdAt": "2026-11-01T09:00:00.000Z",
+  "updatedAt": "2026-11-01T09:00:00.000Z",
+  "admissions": [
+   {
+    "admitDate": "2026-06-10",
+    "dischargeDate": "2026-06-17",
+    "doctor": "伊藤 直樹",
+    "diagnosis": "急性心筋梗塞",
+    "summary": "PCI施行後経過良好にて退院。"
+   }
+  ]
+ },
+ {
+  "id": "pt-007",
+  "patientId": "0001234573",
+  "name": "弁膜 和子",
+  "kana": "ベンマク カズコ",
+  "sex": "F",
+  "birthDate": "1939-08-08",
+  "bloodType": "A",
+  "rh": "-",
+  "zip": "100-0006",
+  "address": "東京都千代田区架空町7-8-9",
+  "phone": "03-0000-1006",
+  "mobile": "090-0000-2006",
+  "emergency": {
+   "name": "家族 代表",
+   "relation": "長男",
+   "phone": "080-0000-3006"
+  },
+  "insurance": {
+   "type": "社保",
+   "number": "12345676"
+  },
+  "allergy": {
+   "contrast": false,
+   "contrastDetail": "",
+   "drug": false,
+   "drugDetail": "",
+   "latex": false,
+   "iodine": false,
+   "food": ""
+  },
+  "infection": {
+   "hbs": "-",
+   "hcv": "+",
+   "hiv": "-",
+   "syphilis": "-",
+   "mrsa": "-"
+  },
+  "primaryDoctor": "山田 太郎",
+  "ward": "5東",
+  "referral": {
+   "hospital": "山の手内科",
+   "doctor": "紹介 医師"
+  },
+  "dnar": true,
+  "pastHistory": "慢性腎臓病(G3b)",
+  "familyHistory": "父：心筋梗塞",
+  "medicationNote": "アスピリン100mg 1T1x",
+  "notes": "",
+  "createdAt": "2026-11-01T09:00:00.000Z",
+  "updatedAt": "2026-11-01T09:00:00.000Z",
+  "admissions": [
+   {
+    "admitDate": "2026-07-10",
+    "dischargeDate": "2026-07-17",
+    "doctor": "山田 太郎",
+    "diagnosis": "心不全",
+    "summary": "PCI施行後経過良好にて退院。"
+   }
+  ]
+ },
+ {
+  "id": "pt-008",
+  "patientId": "0001234574",
+  "name": "血管 健",
+  "kana": "ケッカン ケン",
+  "sex": "M",
+  "birthDate": "1958-11-11",
+  "bloodType": "B",
+  "rh": "+",
+  "zip": "100-0007",
+  "address": "東京都千代田区架空町8-9-10",
+  "phone": "03-0000-1007",
+  "mobile": "090-0000-2007",
+  "emergency": {
+   "name": "家族 代表",
+   "relation": "長女",
+   "phone": "080-0000-3007"
+  },
+  "insurance": {
+   "type": "国保",
+   "number": "12345677"
+  },
+  "allergy": {
+   "contrast": false,
+   "contrastDetail": "",
+   "drug": false,
+   "drugDetail": "",
+   "latex": false,
+   "iodine": false,
+   "food": ""
+  },
+  "infection": {
+   "hbs": "-",
+   "hcv": "-",
+   "hiv": "-",
+   "syphilis": "-",
+   "mrsa": "-"
+  },
+  "primaryDoctor": "佐藤 健一",
+  "ward": "6西",
+  "referral": {
+   "hospital": "港北循環器クリニック",
+   "doctor": "紹介 医師"
+  },
+  "dnar": false,
+  "pastHistory": "特記事項なし",
+  "familyHistory": "",
+  "medicationNote": "",
+  "notes": "",
+  "createdAt": "2026-11-01T09:00:00.000Z",
+  "updatedAt": "2026-11-01T09:00:00.000Z",
+  "admissions": [
+   {
+    "admitDate": "2026-08-10",
+    "dischargeDate": "2026-08-17",
+    "doctor": "佐藤 健一",
+    "diagnosis": "不安定狭心症",
+    "summary": "PCI施行後経過良好にて退院。"
+   }
+  ]
+ }
+]

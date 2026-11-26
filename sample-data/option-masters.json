@@ -1,0 +1,1908 @@
+[
+ {
+  "code": "EXAM_ITEM",
+  "name": "検査項目",
+  "screen": "カテ記録",
+  "editable": true,
+  "items": [
+   {
+    "code": "CAG",
+    "label": "CAG",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "LVG",
+    "label": "LVG",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "AOG",
+    "label": "AOG",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "RHC",
+    "label": "RHC",
+    "sortOrder": 40,
+    "active": true
+   },
+   {
+    "code": "PCI",
+    "label": "PCI",
+    "sortOrder": 50,
+    "active": true
+   },
+   {
+    "code": "EVT",
+    "label": "EVT",
+    "sortOrder": 60,
+    "active": true
+   },
+   {
+    "code": "IVUS",
+    "label": "IVUS",
+    "sortOrder": 70,
+    "active": true
+   },
+   {
+    "code": "OCT/OFDI",
+    "label": "OCT/OFDI",
+    "sortOrder": 80,
+    "active": true
+   },
+   {
+    "code": "Pressure study",
+    "label": "Pressure study",
+    "sortOrder": 90,
+    "active": true
+   },
+   {
+    "code": "FFR",
+    "label": "FFR",
+    "sortOrder": 100,
+    "active": true
+   },
+   {
+    "code": "iFR",
+    "label": "iFR",
+    "sortOrder": 110,
+    "active": true
+   },
+   {
+    "code": "RFR",
+    "label": "RFR",
+    "sortOrder": 120,
+    "active": true
+   },
+   {
+    "code": "Ach負荷",
+    "label": "Ach負荷",
+    "sortOrder": 130,
+    "active": true,
+    "labels": {
+     "en": "ACh provocation",
+     "zh-CN": "乙酰胆碱激发"
+    }
+   },
+   {
+    "code": "Biopsy",
+    "label": "Biopsy",
+    "sortOrder": 140,
+    "active": true
+   },
+   {
+    "code": "temporary PM",
+    "label": "temporary PM",
+    "sortOrder": 150,
+    "active": true
+   },
+   {
+    "code": "PCPS",
+    "label": "PCPS",
+    "sortOrder": 160,
+    "active": true
+   },
+   {
+    "code": "IABP",
+    "label": "IABP",
+    "sortOrder": 170,
+    "active": true
+   },
+   {
+    "code": "Impella",
+    "label": "Impella",
+    "sortOrder": 180,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "DISEASE",
+  "name": "疾患名",
+  "screen": "カテ記録",
+  "editable": true,
+  "items": [
+   {
+    "code": "AP",
+    "label": "AP",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "u-AP",
+    "label": "u-AP",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "SAP",
+    "label": "SAP",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "AMI",
+    "label": "AMI",
+    "sortOrder": 40,
+    "active": true
+   },
+   {
+    "code": "OMI",
+    "label": "OMI",
+    "sortOrder": 50,
+    "active": true
+   },
+   {
+    "code": "SMI",
+    "label": "SMI",
+    "sortOrder": 60,
+    "active": true
+   },
+   {
+    "code": "VSA",
+    "label": "VSA",
+    "sortOrder": 70,
+    "active": true
+   },
+   {
+    "code": "CSA",
+    "label": "CSA",
+    "sortOrder": 80,
+    "active": true
+   },
+   {
+    "code": "HF",
+    "label": "HF",
+    "sortOrder": 90,
+    "active": true
+   },
+   {
+    "code": "DCM",
+    "label": "DCM",
+    "sortOrder": 100,
+    "active": true
+   },
+   {
+    "code": "HCM",
+    "label": "HCM",
+    "sortOrder": 110,
+    "active": true
+   },
+   {
+    "code": "HOCM",
+    "label": "HOCM",
+    "sortOrder": 120,
+    "active": true
+   },
+   {
+    "code": "VT",
+    "label": "VT",
+    "sortOrder": 130,
+    "active": true
+   },
+   {
+    "code": "SSS",
+    "label": "SSS",
+    "sortOrder": 140,
+    "active": true
+   },
+   {
+    "code": "AVB",
+    "label": "AVB",
+    "sortOrder": 150,
+    "active": true
+   },
+   {
+    "code": "AS",
+    "label": "AS",
+    "sortOrder": 160,
+    "active": true
+   },
+   {
+    "code": "MR",
+    "label": "MR",
+    "sortOrder": 170,
+    "active": true
+   },
+   {
+    "code": "LEAD",
+    "label": "LEAD",
+    "sortOrder": 180,
+    "active": true
+   },
+   {
+    "code": "AAA",
+    "label": "AAA",
+    "sortOrder": 190,
+    "active": true
+   },
+   {
+    "code": "虚血性心疾患疑い",
+    "label": "虚血性心疾患疑い",
+    "sortOrder": 200,
+    "active": true,
+    "labels": {
+     "en": "Suspected ischemic heart disease",
+     "zh-CN": "疑似缺血性心脏病"
+    }
+   }
+  ]
+ },
+ {
+  "code": "APPROACH",
+  "name": "アプローチ部位",
+  "screen": "カテ記録・CAG",
+  "editable": true,
+  "items": [
+   {
+    "code": "Rt Radial",
+    "label": "Rt Radial",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "Lt Radial",
+    "label": "Lt Radial",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "Rt Femoral",
+    "label": "Rt Femoral",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "Lt Femoral",
+    "label": "Lt Femoral",
+    "sortOrder": 40,
+    "active": true
+   },
+   {
+    "code": "Rt Brachial",
+    "label": "Rt Brachial",
+    "sortOrder": 50,
+    "active": true
+   },
+   {
+    "code": "Lt Brachial",
+    "label": "Lt Brachial",
+    "sortOrder": 60,
+    "active": true
+   },
+   {
+    "code": "Distal Radial(Rt)",
+    "label": "Distal Radial(Rt)",
+    "sortOrder": 70,
+    "active": true
+   },
+   {
+    "code": "Distal Radial(Lt)",
+    "label": "Distal Radial(Lt)",
+    "sortOrder": 80,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "SHEATH_SIZE",
+  "name": "シース・カテーテル径（Fr）",
+  "screen": "カテ記録・CAG・PCI",
+  "editable": true,
+  "items": [
+   {
+    "code": "4",
+    "label": "4",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "5",
+    "label": "5",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "6",
+    "label": "6",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "7",
+    "label": "7",
+    "sortOrder": 40,
+    "active": true
+   },
+   {
+    "code": "8",
+    "label": "8",
+    "sortOrder": 50,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "CONTRAST_AGENT",
+  "name": "造影剤",
+  "screen": "カテ記録・CAG",
+  "editable": true,
+  "items": [
+   {
+    "code": "イオパミロン370",
+    "label": "イオパミロン370",
+    "sortOrder": 10,
+    "active": true,
+    "labels": {
+     "en": "Iopamiron 370",
+     "zh-CN": "碘帕醇 370"
+    }
+   },
+   {
+    "code": "オムニパーク350",
+    "label": "オムニパーク350",
+    "sortOrder": 20,
+    "active": true,
+    "labels": {
+     "en": "Omnipaque 350",
+     "zh-CN": "碘海醇 350"
+    }
+   },
+   {
+    "code": "オプチレイ350",
+    "label": "オプチレイ350",
+    "sortOrder": 30,
+    "active": true,
+    "labels": {
+     "en": "Optiray 350",
+     "zh-CN": "碘佛醇 350"
+    }
+   },
+   {
+    "code": "ビジパーク320",
+    "label": "ビジパーク320",
+    "sortOrder": 40,
+    "active": true,
+    "labels": {
+     "en": "Visipaque 320",
+     "zh-CN": "碘克沙醇 320"
+    }
+   },
+   {
+    "code": "イオメロン350",
+    "label": "イオメロン350",
+    "sortOrder": 50,
+    "active": true,
+    "labels": {
+     "en": "Iomeron 350",
+     "zh-CN": "碘美普尔 350"
+    }
+   }
+  ]
+ },
+ {
+  "code": "RENTROP",
+  "name": "Rentrop 分類",
+  "screen": "CAG・PCI",
+  "editable": false,
+  "items": [
+   {
+    "code": "0",
+    "label": "0",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "1",
+    "label": "1",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "2",
+    "label": "2",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "3",
+    "label": "3",
+    "sortOrder": 40,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "COLLATERAL_STATE",
+  "name": "側副血行の状態",
+  "screen": "CAG",
+  "editable": true,
+  "items": [
+   {
+    "code": "Good",
+    "label": "Good",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "Poor",
+    "label": "Poor",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "Well-developed",
+    "label": "Well-developed",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "Faint",
+    "label": "Faint",
+    "sortOrder": 40,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "GRAFT_NAME",
+  "name": "バイパスグラフト",
+  "screen": "CAG",
+  "editable": true,
+  "items": [
+   {
+    "code": "LITA",
+    "label": "LITA",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "RITA",
+    "label": "RITA",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "RA",
+    "label": "RA",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "GEA",
+    "label": "GEA",
+    "sortOrder": 40,
+    "active": true
+   },
+   {
+    "code": "SVG",
+    "label": "SVG",
+    "sortOrder": 50,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "GRAFT_PATENCY",
+  "name": "グラフトの開存",
+  "screen": "CAG",
+  "editable": true,
+  "items": [
+   {
+    "code": "Patent",
+    "label": "Patent",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "Stenosis",
+    "label": "Stenosis",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "Occluded",
+    "label": "Occluded",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "String sign",
+    "label": "String sign",
+    "sortOrder": 40,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "CATHETER_SHAPE",
+  "name": "カテーテル形状",
+  "screen": "CAG",
+  "editable": true,
+  "items": [
+   {
+    "code": "JL3.5",
+    "label": "JL3.5",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "JL4",
+    "label": "JL4",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "JL5",
+    "label": "JL5",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "JR4",
+    "label": "JR4",
+    "sortOrder": 40,
+    "active": true
+   },
+   {
+    "code": "JR5",
+    "label": "JR5",
+    "sortOrder": 50,
+    "active": true
+   },
+   {
+    "code": "AL1",
+    "label": "AL1",
+    "sortOrder": 60,
+    "active": true
+   },
+   {
+    "code": "AL2",
+    "label": "AL2",
+    "sortOrder": 70,
+    "active": true
+   },
+   {
+    "code": "AR1",
+    "label": "AR1",
+    "sortOrder": 80,
+    "active": true
+   },
+   {
+    "code": "IM",
+    "label": "IM",
+    "sortOrder": 90,
+    "active": true
+   },
+   {
+    "code": "Tiger II",
+    "label": "Tiger II",
+    "sortOrder": 100,
+    "active": true
+   },
+   {
+    "code": "Ikari L",
+    "label": "Ikari L",
+    "sortOrder": 110,
+    "active": true
+   },
+   {
+    "code": "Pigtail",
+    "label": "Pigtail",
+    "sortOrder": 120,
+    "active": true
+   },
+   {
+    "code": "Multipurpose",
+    "label": "Multipurpose",
+    "sortOrder": 130,
+    "active": true
+   },
+   {
+    "code": "BLK",
+    "label": "BLK",
+    "sortOrder": 140,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "SHEATH_NAME",
+  "name": "シース（製品）",
+  "screen": "カテ記録・CAG",
+  "editable": true,
+  "items": [
+   {
+    "code": "Glidesheath Slender",
+    "label": "Glidesheath Slender",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "Radifocus",
+    "label": "Radifocus",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "Super Sheath",
+    "label": "Super Sheath",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "Parent Plus",
+    "label": "Parent Plus",
+    "sortOrder": 40,
+    "active": true
+   },
+   {
+    "code": "Prelude",
+    "label": "Prelude",
+    "sortOrder": 50,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "SELLERS",
+  "name": "Sellers 分類",
+  "screen": "LVG",
+  "editable": false,
+  "items": [
+   {
+    "code": "0",
+    "label": "0",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "I",
+    "label": "I",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "II",
+    "label": "II",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "III",
+    "label": "III",
+    "sortOrder": 40,
+    "active": true
+   },
+   {
+    "code": "IV",
+    "label": "IV",
+    "sortOrder": 50,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "LESION_TYPE",
+  "name": "ACC/AHA 病変 Type",
+  "screen": "PCI",
+  "editable": false,
+  "items": [
+   {
+    "code": "A",
+    "label": "A",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "B1",
+    "label": "B1",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "B2",
+    "label": "B2",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "C",
+    "label": "C",
+    "sortOrder": 40,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "DENOVO_MAJOR",
+  "name": "病変区分（de novo／再狭窄）",
+  "screen": "PCI",
+  "editable": true,
+  "items": [
+   {
+    "code": "de novo",
+    "label": "de novo",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "restenosis",
+    "label": "restenosis",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "ISR",
+    "label": "ISR",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "graft",
+    "label": "graft",
+    "sortOrder": 40,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "DENOVO_MINOR",
+  "name": "病変区分（詳細）",
+  "screen": "PCI",
+  "editable": true,
+  "items": [
+   {
+    "code": "focal",
+    "label": "focal",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "diffuse",
+    "label": "diffuse",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "proliferative",
+    "label": "proliferative",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "occlusive",
+    "label": "occlusive",
+    "sortOrder": 40,
+    "active": true
+   },
+   {
+    "code": "edge",
+    "label": "edge",
+    "sortOrder": 50,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "ANGULATION",
+  "name": "屈曲（Angulation）",
+  "screen": "PCI",
+  "editable": false,
+  "items": [
+   {
+    "code": "<45°",
+    "label": "<45°",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "45-90°",
+    "label": "45-90°",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": ">90°",
+    "label": ">90°",
+    "sortOrder": 30,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "TORTUOSITY",
+  "name": "近位部の蛇行",
+  "screen": "PCI",
+  "editable": false,
+  "items": [
+   {
+    "code": "None",
+    "label": "None",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "Moderate",
+    "label": "Moderate",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "Severe",
+    "label": "Severe",
+    "sortOrder": 30,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "TIMI",
+  "name": "TIMI 分類",
+  "screen": "PCI",
+  "editable": false,
+  "items": [
+   {
+    "code": "0",
+    "label": "0",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "1",
+    "label": "1",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "2",
+    "label": "2",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "3",
+    "label": "3",
+    "sortOrder": 40,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "PCI_RESULT",
+  "name": "PCI 結果",
+  "screen": "PCI",
+  "editable": false,
+  "items": [
+   {
+    "code": "Success",
+    "label": "Success",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "Partial success",
+    "label": "Partial success",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "Failure",
+    "label": "Failure",
+    "sortOrder": 30,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "DEVICE_CATEGORY",
+  "name": "デバイス種別",
+  "screen": "PCI・マスタ",
+  "editable": true,
+  "items": [
+   {
+    "code": "Balloon",
+    "label": "Balloon",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "NC Balloon",
+    "label": "NC Balloon",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "Scoring",
+    "label": "Scoring",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "Cutting",
+    "label": "Cutting",
+    "sortOrder": 40,
+    "active": true
+   },
+   {
+    "code": "DES",
+    "label": "DES",
+    "sortOrder": 50,
+    "active": true
+   },
+   {
+    "code": "BMS",
+    "label": "BMS",
+    "sortOrder": 60,
+    "active": true
+   },
+   {
+    "code": "DCB",
+    "label": "DCB",
+    "sortOrder": 70,
+    "active": true
+   },
+   {
+    "code": "Rota burr",
+    "label": "Rota burr",
+    "sortOrder": 80,
+    "active": true
+   },
+   {
+    "code": "OAS",
+    "label": "OAS",
+    "sortOrder": 90,
+    "active": true
+   },
+   {
+    "code": "IVL",
+    "label": "IVL",
+    "sortOrder": 100,
+    "active": true
+   },
+   {
+    "code": "DCA",
+    "label": "DCA",
+    "sortOrder": 110,
+    "active": true
+   },
+   {
+    "code": "Aspiration",
+    "label": "Aspiration",
+    "sortOrder": 120,
+    "active": true
+   },
+   {
+    "code": "Filter",
+    "label": "Filter",
+    "sortOrder": 130,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "BIF_STENT",
+  "name": "分岐部ステント手技",
+  "screen": "PCI",
+  "editable": true,
+  "items": [
+   {
+    "code": "Provisional",
+    "label": "Provisional",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "T-stent",
+    "label": "T-stent",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "TAP",
+    "label": "TAP",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "Culotte",
+    "label": "Culotte",
+    "sortOrder": 40,
+    "active": true
+   },
+   {
+    "code": "Crush",
+    "label": "Crush",
+    "sortOrder": 50,
+    "active": true
+   },
+   {
+    "code": "DK-crush",
+    "label": "DK-crush",
+    "sortOrder": 60,
+    "active": true
+   },
+   {
+    "code": "V-stent",
+    "label": "V-stent",
+    "sortOrder": 70,
+    "active": true
+   },
+   {
+    "code": "SKS",
+    "label": "SKS",
+    "sortOrder": 80,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "CTO_ACCESS",
+  "name": "CTO アクセス",
+  "screen": "PCI",
+  "editable": true,
+  "items": [
+   {
+    "code": "Antegrade",
+    "label": "Antegrade",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "Retrograde",
+    "label": "Retrograde",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "Both",
+    "label": "Both",
+    "sortOrder": 30,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "GW_METHOD",
+  "name": "CTO ガイドワイヤー通過法",
+  "screen": "PCI",
+  "editable": true,
+  "items": [
+   {
+    "code": "Single wire",
+    "label": "Single wire",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "Parallel wire",
+    "label": "Parallel wire",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "IVUS guided",
+    "label": "IVUS guided",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "ADR",
+    "label": "ADR",
+    "sortOrder": 40,
+    "active": true
+   },
+   {
+    "code": "Reverse CART",
+    "label": "Reverse CART",
+    "sortOrder": 50,
+    "active": true
+   },
+   {
+    "code": "CART",
+    "label": "CART",
+    "sortOrder": 60,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "SUPPORT",
+  "name": "補助循環・サポート",
+  "screen": "CAG・PCI",
+  "editable": true,
+  "items": [
+   {
+    "code": "IABP",
+    "label": "IABP",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "PCPS",
+    "label": "PCPS",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "Impella",
+    "label": "Impella",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "Temporary PM",
+    "label": "Temporary PM",
+    "sortOrder": 40,
+    "active": true
+   },
+   {
+    "code": "なし",
+    "label": "なし",
+    "sortOrder": 50,
+    "active": true,
+    "labels": {
+     "en": "None",
+     "zh-CN": "无"
+    }
+   }
+  ]
+ },
+ {
+  "code": "JPCI_SYMPTOM_1M",
+  "name": "1か月以内の症状（J-PCI）",
+  "screen": "PCI（J-PCI）",
+  "editable": false,
+  "items": [
+   {
+    "code": "無症状",
+    "label": "無症状",
+    "sortOrder": 10,
+    "active": true,
+    "labels": {
+     "en": "Asymptomatic",
+     "zh-CN": "无症状"
+    }
+   },
+   {
+    "code": "安定狭心症",
+    "label": "安定狭心症",
+    "sortOrder": 20,
+    "active": true,
+    "labels": {
+     "en": "Stable angina",
+     "zh-CN": "稳定型心绞痛"
+    }
+   },
+   {
+    "code": "不安定狭心症",
+    "label": "不安定狭心症",
+    "sortOrder": 30,
+    "active": true,
+    "labels": {
+     "en": "Unstable angina",
+     "zh-CN": "不稳定型心绞痛"
+    }
+   },
+   {
+    "code": "NSTEMI",
+    "label": "NSTEMI",
+    "sortOrder": 40,
+    "active": true
+   },
+   {
+    "code": "STEMI",
+    "label": "STEMI",
+    "sortOrder": 50,
+    "active": true
+   },
+   {
+    "code": "心不全",
+    "label": "心不全",
+    "sortOrder": 60,
+    "active": true,
+    "labels": {
+     "en": "Heart failure",
+     "zh-CN": "心力衰竭"
+    }
+   },
+   {
+    "code": "その他",
+    "label": "その他",
+    "sortOrder": 70,
+    "active": true,
+    "labels": {
+     "en": "Other",
+     "zh-CN": "其他"
+    }
+   }
+  ]
+ },
+ {
+  "code": "JPCI_DX",
+  "name": "入院時診断（J-PCI）",
+  "screen": "PCI（J-PCI）",
+  "editable": false,
+  "items": [
+   {
+    "code": "安定冠動脈疾患",
+    "label": "安定冠動脈疾患",
+    "sortOrder": 10,
+    "active": true,
+    "labels": {
+     "en": "Stable coronary artery disease",
+     "zh-CN": "稳定型冠心病"
+    }
+   },
+   {
+    "code": "不安定狭心症",
+    "label": "不安定狭心症",
+    "sortOrder": 20,
+    "active": true,
+    "labels": {
+     "en": "Unstable angina",
+     "zh-CN": "不稳定型心绞痛"
+    }
+   },
+   {
+    "code": "NSTEMI",
+    "label": "NSTEMI",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "STEMI",
+    "label": "STEMI",
+    "sortOrder": 40,
+    "active": true
+   },
+   {
+    "code": "無症候性心筋虚血",
+    "label": "無症候性心筋虚血",
+    "sortOrder": 50,
+    "active": true,
+    "labels": {
+     "en": "Silent myocardial ischemia",
+     "zh-CN": "无症状性心肌缺血"
+    }
+   },
+   {
+    "code": "その他",
+    "label": "その他",
+    "sortOrder": 60,
+    "active": true,
+    "labels": {
+     "en": "Other",
+     "zh-CN": "其他"
+    }
+   }
+  ]
+ },
+ {
+  "code": "PRESSURE_PHASE",
+  "name": "Pressure 測定時期",
+  "screen": "Pressure/IVUS",
+  "editable": true,
+  "items": [
+   {
+    "code": "診断のみ",
+    "label": "診断のみ",
+    "sortOrder": 10,
+    "active": true,
+    "labels": {
+     "en": "Diagnostic only",
+     "zh-CN": "仅诊断"
+    }
+   },
+   {
+    "code": "pre PCI",
+    "label": "pre PCI",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "post PCI",
+    "label": "post PCI",
+    "sortOrder": 30,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "HYPEREMIC_DRUG",
+  "name": "最大充血薬",
+  "screen": "Pressure/IVUS",
+  "editable": true,
+  "items": [
+   {
+    "code": "ATP",
+    "label": "ATP",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "パパベリン",
+    "label": "パパベリン",
+    "sortOrder": 20,
+    "active": true,
+    "labels": {
+     "en": "Papaverine",
+     "zh-CN": "罂粟碱"
+    }
+   },
+   {
+    "code": "ニコランジル",
+    "label": "ニコランジル",
+    "sortOrder": 30,
+    "active": true,
+    "labels": {
+     "en": "Nicorandil",
+     "zh-CN": "尼可地尔"
+    }
+   },
+   {
+    "code": "アデノシン",
+    "label": "アデノシン",
+    "sortOrder": 40,
+    "active": true,
+    "labels": {
+     "en": "Adenosine",
+     "zh-CN": "腺苷"
+    }
+   }
+  ]
+ },
+ {
+  "code": "DOMINANCE",
+  "name": "優位性（Dominance）",
+  "screen": "CAG・Pressure/IVUS",
+  "editable": false,
+  "items": [
+   {
+    "code": "Right",
+    "label": "Right",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "Left",
+    "label": "Left",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "Balanced",
+    "label": "Balanced",
+    "sortOrder": 30,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "FIRST_ECG",
+  "name": "初回心電図",
+  "screen": "PCPS",
+  "editable": true,
+  "items": [
+   {
+    "code": "VF",
+    "label": "VF",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "pulseless VT",
+    "label": "pulseless VT",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "PEA",
+    "label": "PEA",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "Asystole",
+    "label": "Asystole",
+    "sortOrder": 40,
+    "active": true
+   },
+   {
+    "code": "Sinus",
+    "label": "Sinus",
+    "sortOrder": 50,
+    "active": true
+   },
+   {
+    "code": "その他",
+    "label": "その他",
+    "sortOrder": 60,
+    "active": true,
+    "labels": {
+     "en": "Other",
+     "zh-CN": "其他"
+    }
+   }
+  ]
+ },
+ {
+  "code": "MACE_LEVEL",
+  "name": "MACE レベル",
+  "screen": "MACE",
+  "editable": false,
+  "items": [
+   {
+    "code": "0",
+    "label": "0",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "1",
+    "label": "1",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "2",
+    "label": "2",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "3",
+    "label": "3",
+    "sortOrder": 40,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "IMAGE_CATEGORY",
+  "name": "画像の種別",
+  "screen": "画像",
+  "editable": true,
+  "items": [
+   {
+    "code": "Cine",
+    "label": "Cine",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "ECG",
+    "label": "ECG",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "X-P",
+    "label": "X-P",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "IVUS",
+    "label": "IVUS",
+    "sortOrder": 40,
+    "active": true
+   },
+   {
+    "code": "OCT",
+    "label": "OCT",
+    "sortOrder": 50,
+    "active": true
+   },
+   {
+    "code": "UCG",
+    "label": "UCG",
+    "sortOrder": 60,
+    "active": true
+   },
+   {
+    "code": "CT",
+    "label": "CT",
+    "sortOrder": 70,
+    "active": true
+   },
+   {
+    "code": "Scinti",
+    "label": "Scinti",
+    "sortOrder": 80,
+    "active": true
+   },
+   {
+    "code": "Other",
+    "label": "Other",
+    "sortOrder": 90,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "IMAGE_VIEW",
+  "name": "撮影方向",
+  "screen": "画像",
+  "editable": true,
+  "items": [
+   {
+    "code": "RAO30",
+    "label": "RAO30",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "LAO45",
+    "label": "LAO45",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "RAO30/CAU25",
+    "label": "RAO30/CAU25",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "RAO30/CRA30",
+    "label": "RAO30/CRA30",
+    "sortOrder": 40,
+    "active": true
+   },
+   {
+    "code": "LAO45/CRA25",
+    "label": "LAO45/CRA25",
+    "sortOrder": 50,
+    "active": true
+   },
+   {
+    "code": "LAO45/CAU30",
+    "label": "LAO45/CAU30",
+    "sortOrder": 60,
+    "active": true
+   },
+   {
+    "code": "AP/CRA30",
+    "label": "AP/CRA30",
+    "sortOrder": 70,
+    "active": true
+   },
+   {
+    "code": "Spider",
+    "label": "Spider",
+    "sortOrder": 80,
+    "active": true
+   },
+   {
+    "code": "Lateral",
+    "label": "Lateral",
+    "sortOrder": 90,
+    "active": true
+   },
+   {
+    "code": "PA",
+    "label": "PA",
+    "sortOrder": 100,
+    "active": true
+   },
+   {
+    "code": "AP",
+    "label": "AP",
+    "sortOrder": 110,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "NYHA",
+  "name": "NYHA 分類",
+  "screen": "カンファレンス",
+  "editable": false,
+  "items": [
+   {
+    "code": "I",
+    "label": "I",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "II",
+    "label": "II",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "III",
+    "label": "III",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "IV",
+    "label": "IV",
+    "sortOrder": 40,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "CCS",
+  "name": "CCS 分類",
+  "screen": "カンファレンス",
+  "editable": false,
+  "items": [
+   {
+    "code": "I",
+    "label": "I",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "II",
+    "label": "II",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "III",
+    "label": "III",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "IV",
+    "label": "IV",
+    "sortOrder": 40,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "SCINTI_TYPE",
+  "name": "シンチグラム種別",
+  "screen": "カンファレンス",
+  "editable": true,
+  "items": [
+   {
+    "code": "Tl負荷",
+    "label": "Tl負荷",
+    "sortOrder": 10,
+    "active": true,
+    "labels": {
+     "en": "Tl stress",
+     "zh-CN": "Tl 负荷"
+    }
+   },
+   {
+    "code": "Tc負荷",
+    "label": "Tc負荷",
+    "sortOrder": 20,
+    "active": true,
+    "labels": {
+     "en": "Tc stress",
+     "zh-CN": "Tc 负荷"
+    }
+   },
+   {
+    "code": "BMIPP",
+    "label": "BMIPP",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "MIBG",
+    "label": "MIBG",
+    "sortOrder": 40,
+    "active": true
+   },
+   {
+    "code": "PYP",
+    "label": "PYP",
+    "sortOrder": 50,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "CAD_RADS",
+  "name": "CAD-RADS",
+  "screen": "カンファレンス",
+  "editable": false,
+  "items": [
+   {
+    "code": "0",
+    "label": "0",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "1",
+    "label": "1",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "2",
+    "label": "2",
+    "sortOrder": 30,
+    "active": true
+   },
+   {
+    "code": "3",
+    "label": "3",
+    "sortOrder": 40,
+    "active": true
+   },
+   {
+    "code": "4A",
+    "label": "4A",
+    "sortOrder": 50,
+    "active": true
+   },
+   {
+    "code": "4B",
+    "label": "4B",
+    "sortOrder": 60,
+    "active": true
+   },
+   {
+    "code": "5",
+    "label": "5",
+    "sortOrder": 70,
+    "active": true
+   },
+   {
+    "code": "N",
+    "label": "N",
+    "sortOrder": 80,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "TREADMILL_PROTOCOL",
+  "name": "トレッドミル プロトコル",
+  "screen": "カンファレンス",
+  "editable": true,
+  "items": [
+   {
+    "code": "Bruce",
+    "label": "Bruce",
+    "sortOrder": 10,
+    "active": true
+   },
+   {
+    "code": "Modified Bruce",
+    "label": "Modified Bruce",
+    "sortOrder": 20,
+    "active": true
+   },
+   {
+    "code": "Naughton",
+    "label": "Naughton",
+    "sortOrder": 30,
+    "active": true
+   }
+  ]
+ },
+ {
+  "code": "TREADMILL_RESULT",
+  "name": "トレッドミル 判定",
+  "screen": "カンファレンス",
+  "editable": true,
+  "items": [
+   {
+    "code": "陰性",
+    "label": "陰性",
+    "sortOrder": 10,
+    "active": true,
+    "labels": {
+     "en": "Negative",
+     "zh-CN": "阴性"
+    }
+   },
+   {
+    "code": "陽性",
+    "label": "陽性",
+    "sortOrder": 20,
+    "active": true,
+    "labels": {
+     "en": "Positive",
+     "zh-CN": "阳性"
+    }
+   },
+   {
+    "code": "判定不能",
+    "label": "判定不能",
+    "sortOrder": 30,
+    "active": true,
+    "labels": {
+     "en": "Indeterminate",
+     "zh-CN": "无法判定"
+    }
+   }
+  ]
+ },
+ {
+  "code": "DRUG_USAGE",
+  "name": "用法",
+  "screen": "カンファレンス",
+  "editable": true,
+  "items": [
+   {
+    "code": "1日1回朝食後",
+    "label": "1日1回朝食後",
+    "sortOrder": 10,
+    "active": true,
+    "labels": {
+     "en": "Once daily after breakfast",
+     "zh-CN": "每日1次 早餐后"
+    }
+   },
+   {
+    "code": "1日2回朝夕食後",
+    "label": "1日2回朝夕食後",
+    "sortOrder": 20,
+    "active": true,
+    "labels": {
+     "en": "Twice daily after breakfast and dinner",
+     "zh-CN": "每日2次 早晚餐后"
+    }
+   },
+   {
+    "code": "1日3回毎食後",
+    "label": "1日3回毎食後",
+    "sortOrder": 30,
+    "active": true,
+    "labels": {
+     "en": "Three times daily after meals",
+     "zh-CN": "每日3次 三餐后"
+    }
+   },
+   {
+    "code": "就寝前",
+    "label": "就寝前",
+    "sortOrder": 40,
+    "active": true,
+    "labels": {
+     "en": "At bedtime",
+     "zh-CN": "睡前"
+    }
+   },
+   {
+    "code": "頓用",
+    "label": "頓用",
+    "sortOrder": 50,
+    "active": true,
+    "labels": {
+     "en": "As needed",
+     "zh-CN": "必要时"
+    }
+   }
+  ]
+ }
+]

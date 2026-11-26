@@ -1,0 +1,42 @@
+[
+  {
+    "username": "admin",
+    "displayName": "管理者",
+    "roles": [
+      "admin"
+    ],
+    "password": "pbkdf2_sha256$120000$VDLsUlUthY8DKVCObxGZBQ==$udrBDWZWdukvzsfAGcM4C0FDQgp61zoOitpIJUtGQTQ="
+  },
+  {
+    "username": "yamada",
+    "displayName": "山田 太郎",
+    "roles": [
+      "doctor"
+    ],
+    "password": "pbkdf2_sha256$120000$FnQGEjYI0wTYEZMBn6Mvog==$9KyUu1yJRdoD4iWarvidM001VX86FjYXhWbd13Nrntw="
+  },
+  {
+    "username": "sato",
+    "displayName": "佐藤 健一",
+    "roles": [
+      "doctor"
+    ],
+    "password": "pbkdf2_sha256$120000$cvjypT3z5uVu2V63P3Mmtg==$fUyCT+p4JGtzRB1SSZkRyHiQb+u78JRbyq+0TDTttl4="
+  },
+  {
+    "username": "hisho",
+    "displayName": "秘書 花子",
+    "roles": [
+      "secretary"
+    ],
+    "password": "pbkdf2_sha256$120000$hqDL6w2RBEOvLprHllpmrQ==$fqlqsK7SZ04oSwfXjiMk008BGLmxxQn0haoiYoBRXZ4="
+  },
+  {
+    "username": "etsuran",
+    "displayName": "閲覧 用",
+    "roles": [
+      "viewer"
+    ],
+    "password": "pbkdf2_sha256$120000$8PjuqIpe4hivOUwx5f6dPw==$MYAV9giknwlEavm9wj458lz7ReQFyrCIdSUu8M7wpY4="
+  }
+]
